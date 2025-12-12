@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="app-wrapper">
-      {/* --- HEADER --- */}
+
       <header className="main-header">
         <div className="logo-section">
           <div className="logo-container">
@@ -42,7 +42,6 @@ function App() {
         </div>
       </header>
 
-      {/* --- MAIN CONTENT --- */}
       <main className="main-container">
         <div className="card input-card">
           <div className="card-header">
@@ -94,7 +93,6 @@ function App() {
           {error && <p className="error-msg">{error}</p>}
         </div>
 
-        {/* --- RESULT SECTION --- */}
         {result && (
           <div className="card result-card">
             <div className="result-header">
@@ -116,7 +114,6 @@ function App() {
         )}
       </main>
 
-      {/* --- FOOTER BARU --- */}
       <footer className="app-footer">
         <p>© 2025 Product Review Analyzer. Created by <strong>Fadzilah Saputri</strong></p>
       </footer>

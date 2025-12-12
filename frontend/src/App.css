@@ -1,10 +1,8 @@
-/* --- RESET PENTING --- */
 :root {
   font-family: 'DM Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  /* --- PALET WARNA --- */
   --primary-brand: #C75D2C;
   --secondary-brand: #F8B259;
   
@@ -38,7 +36,6 @@ body {
   flex-direction: column;
 }
 
-/* --- HEADER --- */
 .main-header {
   background-color: #ffffff;
   width: 100%;
@@ -82,21 +79,18 @@ body {
   letter-spacing: -0.5px;
 }
 
-/* --- MAIN CONTAINER --- */
 .main-container {
   width: 100%;
   max-width: 800px;
-  margin: 40px auto 20px auto; /* Margin bawah dikurangi dikit biar footer deket */
+  margin: 40px auto 20px auto;
   padding: 0 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Ini trik biar footer kedorong ke paling bawah kalau kontennya pendek */
   flex: 1; 
 }
 
-/* --- CARDS --- */
 .card {
   background: #ffffff;
   border-radius: 24px;
@@ -133,7 +127,6 @@ body {
   color: var(--text-dark);
 }
 
-/* --- FORM --- */
 .form-group {
   margin-bottom: 24px;
   width: 100%;
@@ -162,10 +155,9 @@ input, textarea {
   transition: all 0.3s ease;
 }
 
-/* Trik Placeholder Lebih Pudar */
 input::placeholder, textarea::placeholder {
   color: var(--text-grey);
-  opacity: 0.6; /* Membuat lebih transparan supaya tidak balapan sama teks asli */
+  opacity: 0.6;
 }
 
 input:focus, textarea:focus {
@@ -179,10 +171,9 @@ input:focus, textarea:focus {
   font-size: 0.8rem;
   color: var(--text-grey);
   margin-top: 0.5rem;
-  text-align: right; /* Geser ke kanan biar rapi */
+  text-align: right; 
 }
 
-/* --- BUTTON --- */
 .analyze-btn {
   width: 100%;
   padding: 18px;
@@ -275,13 +266,12 @@ input:focus, textarea:focus {
   font-weight: 600;
 }
 
-/* --- FOOTER STYLE --- */
 .app-footer {
   text-align: center;
   padding: 30px 20px;
   color: var(--text-grey);
   font-size: 0.9rem;
-  margin-top: auto; /* Memastikan footer ada di bawah */
+  margin-top: auto; 
   opacity: 0.8;
 }
 
