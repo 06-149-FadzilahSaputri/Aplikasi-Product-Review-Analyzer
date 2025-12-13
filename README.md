@@ -60,3 +60,6 @@ Buka browser dan akses: http://localhost:5173
 ## Tampilan
 ![alt text](<Screenshot 2025-12-12 234620.png>)
 ![alt text](<Screenshot 2025-12-12 234629.png>)
+
+Tampilan Postgre
+![alt text](image-1.png)
